@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/argent-bank.png";
+import { FaUserCircle } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
         </Link>
         <div>
           <Link className="main-nav-item" href="./sign-in.html">
-            <i className="fa fa-user-circle"></i>
+            <FaUserCircle />
             Sign In
           </Link>
         </div>

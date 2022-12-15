@@ -6,16 +6,19 @@
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: $color-primary;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: $color-secondary;
     }
   }
 
   .main-nav-item {
     text-decoration: none;
     margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     &:hover {
       text-decoration: underline;
