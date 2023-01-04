@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const SignIn = () => {
   return (
@@ -22,9 +23,10 @@ const SignIn = () => {
             <label htmlFor="remember-me">Remember me</label>
           </div>
           {/* <!-- PLACEHOLDER DUE TO STATIC SITE --> */}
-          <a href="./user.html" className="sign-in-button">
+          <Link to="/user" className="sign-in-button">
             Sign In
-          </a>
+          </Link>
+
           {/* <!-- SHOULD BE THE BUTTON BELOW --> */}
           {/* <!-- <button class="sign-in-button">Sign In</button> --> */}
           {/* <!--  --> */}
