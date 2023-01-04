@@ -6,6 +6,10 @@ export const userSlice = createSlice({
     //Penser à changer l'initialState
     user: null,
   },
+  reducers: {
+    // Créer un reducer userLogin
+    // Créer un reducer userLogout
+  },
 });
 
 export default userSlice.reducer;
