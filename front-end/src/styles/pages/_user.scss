@@ -4,10 +4,12 @@
   align-items: center;
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 30px;
 
   .header {
     color: $white;
     margin-top: 2rem;
+    padding: 0px 10px;
 
     .edit-button {
       border-color: $color-secondary;
@@ -21,15 +23,18 @@
   }
 
   .profil-form {
-    width: 400px;
+    width: 360px;
     .profil-inputs,
     .profil-buttons {
       display: flex;
       margin-top: 10px;
       justify-content: space-evenly;
+      gap: 10px;
     }
 
     .profil-inputs {
+      flex-direction: column;
+      width: auto;
       .profil-input {
         padding: 10px 5px;
         border: 2px solid $color-secondary;
@@ -40,6 +45,7 @@
     .profil-buttons {
       .button-valid,
       .button-cancel {
+        margin: auto;
         padding: 5px 25px;
         border-radius: 5px;
         font-size: 14px;
@@ -49,6 +55,20 @@
       }
       .button-cancel {
         border: 2px solid $cancel;
+      }
+    }
+  }
+}
+
+@media (min-width: 720px) {
+  .user {
+    .header {
+      padding: 0;
+    }
+    .profil-form {
+      width: 400px;
+      .profil-inputs {
+        flex-direction: row;
       }
     }
   }

@@ -12,6 +12,10 @@
   border: 3px solid $color-secondary;
   border-radius: 5px;
 
+  .account-content-wrapper {
+    text-align: center;
+  }
+
   .account-title {
     margin: 0;
     padding: 0;
@@ -39,11 +43,20 @@
     font-size: 1.1rem;
     font-weight: bold;
     background-color: $color-secondary;
+    margin-top: 20px;
   }
 }
 
 @media (min-width: 720px) {
   .account {
     flex-direction: row;
+
+    .account-content-wrapper {
+      text-align: left;
+    }
+
+    .transaction-button {
+      margin-top: 0;
+    }
   }
 }
