@@ -26,6 +26,28 @@ node --version
 mongo --version
 ```
 
+### For the Front-end
+
+- NodeJS (version 16.14.2)
+- React & React-dom (version 18.2.0)
+- React-icons (version 4.7.1)
+- Sass (version 1.56.2)
+- Axios (version 1.2.2)
+- Js Doc (version 4.0.0)
+- Dotenv (version 16.0.3)
+- React Redux (version 8.0.5)
+- React Redux Toolkit (version 1.9.1)
+
+### WARNING, if you use Windows 10, and you have this error :
+
+```
+Error when deploying react app and it keeps sayings << Plugin "react" was conflicted between "package.json » eslint-config-react-app » >>
+
+Change the name of the Folder ArgentBank to argentbank
+```
+
+Link solution : https://stackoverflow.com/questions/70377211/error-when-deploying-react-app-and-it-keeps-sayings-plugin-react-was-confli
+
 ### Instructions
 
 1. Fork this repo
