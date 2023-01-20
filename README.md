@@ -37,6 +37,7 @@ mongo --version
 - Dotenv (version 16.0.3)
 - React Redux (version 8.0.5)
 - React Redux Toolkit (version 1.9.1)
+- PropTypes (version 15.8.1)
 
 ### WARNING, if you use Windows 10, and you have this error :
 
