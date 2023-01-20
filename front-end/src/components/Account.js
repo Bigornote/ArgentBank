@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 /**
  * Returns a React component displays account on user page
@@ -19,6 +20,12 @@ const Account = ({ title, amount, description }) => {
       </div>
     </section>
   );
+};
+
+Account.propTypes = {
+  title: PropTypes.string,
+  amount: PropTypes.string,
+  description: PropTypes.string,
 };
 
 export default Account;

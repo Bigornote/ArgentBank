@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 /**
  * Returns a React component displays card on the home page
@@ -14,6 +15,12 @@ const Card = ({ icon, title, text }) => {
       <p>{text}</p>
     </div>
   );
+};
+
+Card.propTypes = {
+  icon: PropTypes.string,
+  title: PropTypes.string,
+  text: PropTypes.string,
 };
 
 export default Card;
